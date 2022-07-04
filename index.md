@@ -50,3 +50,8 @@ git commit -m <"commit message">
 ```
  git branch <название ветки>
 ```
+## клонирование репозитория
+для клонирования репозитория нужно ввести команду
+```
+git clone <url to repository>
+```
