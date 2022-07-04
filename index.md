@@ -55,3 +55,10 @@ git commit -m <"commit message">
 ```
 git clone <url to repository>
 ```
+
+
+## СБрос изменений
+для сброса изменений в текущей ветке введите команду
+```
+ git reset <commit hach>
+```
