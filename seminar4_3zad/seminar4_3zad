@@ -1,0 +1,13 @@
+// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+int d = Convert.ToInt32(Console.ReadLine());
+int e = Convert.ToInt32(Console.ReadLine());
+int f = Convert.ToInt32(Console.ReadLine());
+int g = Convert.ToInt32(Console.ReadLine());
+int h = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[] { a, b, c, d, e, f, g, h };
+ 
+   Console.WriteLine("[" + string.Join(", ", array) + "]");
