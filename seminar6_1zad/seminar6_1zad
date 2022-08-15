@@ -1,0 +1,15 @@
+int m = Convert.ToInt32(Console.ReadLine());
+int[] mass = new int[m];
+for (int i = 0; i < m; i++)
+{
+    Console.Write("Введи число: ");
+    mass[i] = Convert.ToInt32(Console.ReadLine());
+}
+int count = 0;
+  for (int i = 0; i < mass.Length; i++)
+  {
+    if(mass[i] > 0 ) 
+    count += 1; 
+  }
+Console.WriteLine("count");
+// не могу понять в чем проблема и где ошибка
